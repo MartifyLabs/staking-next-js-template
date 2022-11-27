@@ -1,8 +1,7 @@
 import "../styles/globals.css";
-import type { AppProps } from "next/app";
 import { MeshProvider } from "@martifylabs/mesh-react";
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }) {
   return (
     <MeshProvider>
       <Component {...pageProps} />

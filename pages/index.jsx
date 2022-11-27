@@ -28,7 +28,7 @@ export default function Home() {
 
         <div className="demo">
           <StakeButton
-            onCheck={(address: string) =>
+            onCheck={(address) =>
               blockchainProvider.fetchAccountInfo(address)
             }
             poolId="pool1547tew8vmuj0g6vj3k5jfddudextcw6hsk2hwgg6pkhk7lwphe6"
