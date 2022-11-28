@@ -3,8 +3,12 @@
 Start project with this template:
 
 ```bash
-npx create-mesh-app staking-next-ts-template
+npx create-mesh-app staking-next-js-template
 ```
+
+Start your project on [Demeter](https://demeter.run/):
+
+[![Code in Cardano Workspace](https://demeter.run/code/badge.svg)](https://demeter.run/code?repository=https://github.com/MartifyLabs/staking-next-js-template.git&template=typescript)
 
 ## Learn More
 
