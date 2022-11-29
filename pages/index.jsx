@@ -3,7 +3,7 @@ import { KoiosProvider } from "@martifylabs/mesh";
 import { StakeButton, MeshBadge } from "@martifylabs/mesh-react";
 
 export default function Home() {
-  const blockchainProvider = new KoiosProvider("preprod");
+  const blockchainProvider = new KoiosProvider("mainnet");
 
   return (
     <div className="container">
